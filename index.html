@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&family=Dancing+Script&family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Biscoito da Sorte</title>
+</head>
+<body>
+
+  <header>
+
+  </header>
+
+  <main>
+
+    <div class="screen1">
+      <h1>Qual é a sua sorte<br>de hoje?</h1>
+      <p>Abra o biscoito e descubra!</p>
+    
+      <div class="img1Container">
+        <img id="img1" class="img1" src="./assets/closed-cookie.png" 
+             alt="biscoito da sorte fechado, da cor amarelo escuro com metade do bilhetinho, da cor branca aparecendo">
+      </div>
+
+      
+    </div>
+
+    <div class="screen2 hide">
+      <h1>Aqui está a sua sorte<br>de hoje:</h1>
+
+      <p id="rotatingText">
+        Se alguém está tão cansado que não possa 
+        te dar um sorriso, deixa-lhe o teu.</p>
+
+       <div class="img2"> 
+        <img id="img2" class="img2" src="./assets/opened-cookie.png" 
+          alt="biscoito da sorte, da cor amarelo escuro, 
+                aberto ao meio">
+    </div>
+
+      <div class="btnReset" id="btnReset">
+        <button>Abrir outro biscoito</button>
+      </div>
+    
+    </div>
+  
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
